@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Zone</title>
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/be1ba39dfe.js"></script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Smooth scroll (beginner friendly) -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* avoid navbar overlap */
+        section {
+            padding-top: 80px;
+            margin-top: -80px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <div class="nav-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#loginModal">Login</a></li>
+<li><a href="#registerModal">Create Account</a></li>
+
+        
+    </div>
+</nav>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="home-hero">
+
+    <div class="home-content">
+        <h1>
+            Discover a World of Books,<br>
+            One Page at a Time
+        </h1>
+
+        <p>
+            Explore free and discounted ebooks across Adventure, Thriller,
+            Romance and Comedy. Reading made simple, smart and accessible.
+        </p>
+
+        <blockquote>
+            “A room without books is like a body without a soul.”
+            <span>– Marcus Tullius Cicero</span>
+        </blockquote>
+
+        <a href="#products" class="btn">Explore Books</a>
+    </div>
+
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section id="products" class="product-section">
+
+  <div class="product-header">
+    <h2>FREE EBOOKS AND DEALS</h2>
+    <a href="#">view all</a>
+  </div>
+
+  <div class="product-row">
+
+    <!-- ===== ADVENTURE ===== -->
+    <div class="product-card">
+      <img src="./images/Adv1.jfif">
+      <h4>Adventure Book 1</h4>
+      <p class="author">Adventure Author</p>
+      <p class="price free">Free</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/Adv2.jfif">
+      <h4>Adventure Book 2</h4>
+      <p class="author">Adventure Author</p>
+      <p class="price">$250 <span>$350</span></p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/Adv3.jfif">
+      <h4>Adventure Book 3</h4>
+      <p class="author">Adventure Author</p>
+      <p class="price">$180</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/Adv4.jfif">
+      <h4>Adventure Book 4</h4>
+      <p class="author">Adventure Author</p>
+      <p class="price">$460</p>
+    </div>
+
+    <!-- ===== THRILLER ===== -->
+    <div class="product-card">
+      <img src="./images/th1.jfif">
+      <h4>Thriller Book 1</h4>
+      <p class="author">Thriller Author</p>
+      <p class="price free">Free</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/th2.jfif">
+      <h4>Thriller Book 2</h4>
+      <p class="author">Thriller Author</p>
+      <p class="price">$402 <span>$599</span></p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/th3.jfif">
+      <h4>Thriller Book 3</h4>
+      <p class="author">Thriller Author</p>
+      <p class="price">$299</p>
+    </div>
+
+    <!-- ===== ROMANTIC ===== -->
+    <div class="product-card">
+      <img src="./images/r1.jfif">
+      <h4>Romantic Book 1</h4>
+      <p class="author">Romantic Author</p>
+      <p class="price">$250</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/r2.jfif">
+      <h4>Romantic Book 2</h4>
+      <p class="author">Romantic Author</p>
+      <p class="price free">Free</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/r3.jfif">
+      <h4>Romantic Book 3</h4>
+      <p class="author">Romantic Author</p>
+      <p class="price">$450</p>
+    </div>
+
+    <!-- ===== COMEDY ===== -->
+    <div class="product-card">
+      <img src="./images/c1.jfif">
+      <h4>Comedy Book 1</h4>
+      <p class="author">Comedy Author</p>
+      <p class="price">$400</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/c2.jfif">
+      <h4>Comedy Book 2</h4>
+      <p class="author">Comedy Author</p>
+      <p class="price">$299</p>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/c3.jfif">
+      <h4>Comedy Book 3</h4>
+      <p class="author">Comedy Author</p>
+      <p class="price free">Free</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- == ================= YOUTUBE VIDEOS ================= -->
+
+
+<section id="videos" class="youtube-section">
+
+    <h2>Book Videos & Reviews</h2>
+    <p class="youtube-subtitle">
+        Watch reviews, summaries and reading inspiration from YouTube
+    </p>
+
+    <div class="youtube-grid">
+
+        <!-- VIDEO 1 -->
+        <div class="youtube-card">
+            <iframe
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                allowfullscreen>
+            </iframe>
+            <p>Top Books You Must Read</p>
+        </div>
+
+        <!-- VIDEO 2 -->
+        <div class="youtube-card">
+            <iframe
+                src="https://www.youtube.com/embed/PZ7lDrwYdZc"
+                allowfullscreen>
+            </iframe>
+            <p>Atomic Habits – Summary</p>
+        </div>
+
+        <!-- VIDEO 3 -->
+        <div class="youtube-card">
+            <iframe
+                src="https://www.youtube.com/embed/-s89IBEaBzU"
+                allowfullscreen>
+            </iframe>
+            <p>Why Reading Books is Important</p>
+        </div>
+
+        <!-- VIDEO 4 -->
+        <div class="youtube-card">
+            <iframe
+                src="https://www.youtube.com/embed/nXPSurPBBUg"
+                allowfullscreen>
+            </iframe>
+            <p>5 Books That Will Change Your Life</p> 
+        </div>
+         
+    </div>
+
+</section>
+
+
+
+<!-- ================= features ================= -->
+<section id="features" class="features-section">
+
+    <h2>Why Choose Book Zone?</h2>
+    <p class="features-subtitle">
+        Everything you need to explore, read, and enjoy books online
+    </p>
+
+    <div class="features-container">
+
+        <div class="feature-card">
+            <i class="fa fa-book"></i>
+            <h3>Huge Book Collection</h3>
+            <p>
+                Explore Adventure, Thriller, Romantic and Comedy books
+                all in one place.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa fa-gift"></i>
+            <h3>Free & Paid Books</h3>
+            <p>
+                Read free ebooks or purchase premium books
+                at affordable prices.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa fa-user"></i>
+            <h3>Easy Login</h3>
+            <p>
+                Simple and secure login & registration system
+                for all users.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa fa-mobile"></i>
+            <h3>Responsive Design</h3>
+            <p>
+                Enjoy seamless experience on mobile, tablet,
+                and desktop devices.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= STATS ================= -->
+
+<section id="stats" class="stats-section">
+
+    <div class="stats-container">
+
+        <div class="stat-box">
+            <h2>1000+</h2>
+            <p>Books Available</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>20+</h2>
+            <p>Book Categories</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>500+</h2>
+            <p>Happy Readers</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>24/7</h2>
+            <p>Online Access</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= TESTIMONIALS ================= -->
+
+<section id="testimonials" class="testimonial-section">
+
+    <h2>What Our Readers Say</h2>
+    <p class="testimonial-subtitle">
+        Feedback from students and book lovers
+    </p>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <p class="testimonial-text">
+                “Book Zone helped me discover amazing free ebooks.
+                The interface is simple and easy to use.”
+            </p>
+            <h4>Ankit Sharma</h4>
+            <span>College Student</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p class="testimonial-text">
+                “I love the variety of books available.
+                The website looks clean and professional.”
+            </p>
+            <h4>Priya Verma</h4>
+            <span>Book Enthusiast</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p class="testimonial-text">
+                “A great platform for readers.
+                The YouTube section and free books are very helpful.”
+            </p>
+            <h4>Rahul Singh</h4>
+            <span>Reader</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="faq-section">
+
+    <h2>Frequently Asked Questions</h2>
+    <p class="faq-subtitle">
+        Find answers to common questions about Book Zone
+    </p>
+
+    <div class="faq-container">
+
+        <details>
+            <summary>Is Book Zone free to use?</summary>
+            <p>
+                Yes, Book Zone provides many free ebooks.
+                Some premium books may be paid.
+            </p>
+        </details>
+
+        <details>
+            <summary>Do I need to create an account?</summary>
+            <p>
+                You can browse books without an account.
+                Login is required for saving or accessing premium content.
+            </p>
+        </details>
+
+        <details>
+            <summary>Can I use Book Zone on mobile?</summary>
+            <p>
+                Yes, Book Zone is fully responsive and works on
+                mobile, tablet, and desktop devices.
+            </p>
+        </details>
+
+        <details>
+            <summary>Are the YouTube videos free to watch?</summary>
+            <p>
+                Yes, all embedded YouTube videos are free and
+                available for educational purposes.
+            </p>
+        </details>
+
+        <details>
+            <summary>How often are new books added?</summary>
+            <p>
+                New books and content are added regularly to keep
+                the collection updated.
+            </p>
+        </details>
+
+    </div>
+
+</section>
+
+
+<!-- ================= LOGIN ================= -->
+<div id="loginModal" class="modal">
+  <div class="modal-box">
+    <a href="#" class="close">&times;</a>
+    <h2>Login</h2>
+
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+
+    <button class="btn">Login</button>
+
+    <p class="modal-text">
+      New user?
+      <a href="#registerModal">Create Account</a>
+    </p>
+  </div>
+</div>
+
+<!-- ================= REGISTER ================= -->
+ <div id="registerModal" class="modal">
+  <div class="modal-box">
+    <a href="#" class="close">&times;</a>
+    <h2>Create Account</h2>
+
+    <input type="text" placeholder="Username">
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Password">
+
+    <div class="gender">
+      <label><input type="radio" name="gender"> Male</label>
+      <label><input type="radio" name="gender"> Female</label>
+    </div>
+
+    <button class="btn">Register</button>
+
+    <p class="modal-text">
+      Already registered?
+      <a href="#loginModal">Login</a>
+    </p>
+  </div>
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <p>
+        © 2025 <strong>Book Zone</strong> | All Rights Reserved
+    </p>
+    <p>
+        Designed by 
+        <strong>Anshu Verma,(2025b01011078),cse-14</strong>
+    </p>
+</footer>
+
+</body>
+</html>
